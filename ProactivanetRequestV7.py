@@ -10,10 +10,10 @@ from email.mime.multipart import MIMEMultipart
 # CONFIG De las API y DB
 # =========================================================
 BOXHERO_API_URL = "https://rest.boxhero-app.com/v1/items"
-BOXHERO_API_KEY = "fc6b7a53-c4ea-4b42-9385-47320a638139"
+BOXHERO_API_KEY = "box hero token"
 
-API_URL = "https://itjets.proactivanet.com/panet/api/Devices"
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqY3NvbGlzQGl0amV0cy5jb20iLCJvdnIiOiJmYWxzZSIsImF1dCI6IjAiLCJuYmYiOjE3NjU2NDU1NTAsImV4cCI6MTc5NzE4MTU1MCwiaWF0IjoxNzY1NjQ1NTUwLCJpc3MiOiJwcm9hY3RpdmFuZXQiLCJhdWQiOiJhcGkifQ.urqageC30rGs1SgYkfVmv8y6xB3BsRA6BgytuDpy_3c"
+API_URL = "Services api url here"
+TOKEN = "Services api token here"
 
 headers_boxhero = {
     "Authorization": f"Bearer {BOXHERO_API_KEY}",
