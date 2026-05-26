@@ -4,8 +4,8 @@ from datetime import datetime
 from openpyxl import load_workbook
 
 # ================= CONFIGURACIÓN =================
-BASE_URL = "https://itjets.proactivanet.com/panet/api"
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqY3NvbGlzQGl0amV0cy5jb20iLCJvdnIiOiJmYWxzZSIsImF1dCI6IjAiLCJuYmYiOjE3NjU2NDU1NTAsImV4cCI6MTc5NzE4MTU1MCwiaWF0IjoxNzY1NjQ1NTUwLCJpc3MiOiJwcm9hY3RpdmFuZXQiLCJhdWQiOiJhcGkifQ.urqageC30rGs1SgYkfVmv8y6xB3BsRA6BgytuDpy_3c"
+BASE_URL = "Your api link here"
+TOKEN = "your api token here."
 HEADERS = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
 EXCEL_FILE = "datos.xlsx"
