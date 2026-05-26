@@ -2,13 +2,13 @@ import requests
 from datetime import datetime
 
 # ================= CONFIGURACIÓN =================
-BASE_URL = "https://itjets.proactivanet.com/panet/api"
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqY3NvbGlzQGl0amV0cy5jb20iLCJvdnIiOiJmYWxzZSIsImF1dCI6IjAiLCJuYmYiOjE3NjU2NDU1NTAsImV4cCI6MTc5NzE4MTU1MCwiaWF0IjoxNzY1NjQ1NTUwLCJpc3MiOiJwcm9hY3RpdmFuZXQiLCJhdWQiOiJhcGkifQ.urqageC30rGs1SgYkfVmv8y6xB3BsRA6BgytuDpy_3c"
+BASE_URL = "your api link here"
+TOKEN = "Your token here."
 HEADERS = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
 # ID de los campos personalizados
-TICKET_CUSTOM_FIELD_ID = "3b0ac5ac-9e9d-4080-8972-2db2302a6904"
-USER_CUSTOM_FIELD_ID = "0f7fe070-e9bf-4c61-8c2c-1f8ec42ec64f"
+TICKET_CUSTOM_FIELD_ID = "Custom tiket field ID here"
+USER_CUSTOM_FIELD_ID = "Custom User field ID here"
 
 # 📝 Nombre del log con fecha
 LOG_FILE = f"log_tickets_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
